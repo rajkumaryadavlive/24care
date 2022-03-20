@@ -1,0 +1,154 @@
+.navbar-brand {
+    color: white;
+    padding: 8px 25px;
+    background: white;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 90px;
+    width: 200px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.header-wrapper .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav-scroll {
+    max-height: 150px;
+}
+
+.navbar-nav-scroll a {
+    margin: 0 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-nav-scroll a {
+        margin: 0 0px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .navbar-brand {
+        height: 90px;
+        width: 150px;
+    }
+
+    .navbar-collapse {
+        background: black;
+    }
+}
+
+.search-btn {
+    background: linear-gradient(180deg, #a60100 0%, #d90000 100%);
+    border-color: #a60100;
+    margin-right: -10px;
+    margin-top: -10px;
+    height: 90px;
+    width: 92px;
+    border-radius: 0;
+}
+
+.search-btn img {
+    width: 26px;
+}
+
+.offcanvas-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.search-input-group {
+    max-width: 600px;
+    margin: auto;
+    margin-top: -12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.search-input-btn {
+    padding: 26px;
+    margin-top: 5px;
+}
+
+.search-input {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.navbar-brand {
+    max-width: 100px;
+    max-height: 57px;
+    padding: 0px;
+}
+
+.navbar-brand > img {
+    max-width: 100%;
+}
+
+.additional-margin-top {
+    margin-top: 4rem !important;
+}
+
+button.nav-btn-custom {
+    border: none;
+    background: #2a2a2d;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 16px;
+    margin: 6px;
+}
+
+button.nav-btn-custom > img {
+    width: 26px;
+}
+
+.nav-btn-dropdown-custom {
+    position: absolute;
+    background: #2a2a2d;
+    right: 100px;
+    top: 68px;
+    width: 114px;
+}
+
+.nav-btn-dropdown-custom a {
+    white-space: break-spaces;
+    text-align: left;
+    opacity: 1;
+}
+
+.nav-btn-dropdown-custom a:hover {
+    background: #000;
+}
+
+.nav-btn-custom:hover,
+.nav-btn-custom:focus {
+    background: #000;
+    box-shadow: 0 0 0 0.25rem rgb(212 0 0);
+}
+
+@media only screen and (max-width: 850px) {
+    .search-input-group {
+        margin-top: 4px;
+    }
+
+    .page-header {
+        height: 250px !important;
+    }
+    .non-auth-menu {
+        display: none;
+    }
+    .auth-menu {
+        position: absolute;
+        right: 73px;
+    }
+    .nav-btn-dropdown-custom {
+        right: 0px;
+        top: unset;
+    }
+    .auth-menu > button:first-child {
+        display: none;
+    }
+}

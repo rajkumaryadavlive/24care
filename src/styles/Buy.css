@@ -1,0 +1,97 @@
+.buy-card {
+  background: #232328;
+  padding: 30px 64px;
+  height: 250px;
+  text-align: left;
+  width: 90%;
+  box-shadow: 0px 4px 14px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+}
+
+.buy-card .title {
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.buy-card .logo {
+  padding-bottom: 15px;
+}
+
+.buy-card > .logo {
+  white-space: nowrap;
+}
+
+.buy-card .logo h3 {
+  display: inline;
+}
+
+.buy-card input {
+  background: #1c1c20;
+  border-color: #1c1c20;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.transfer {
+  background: #1c1c20;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 50px;
+  left: 43%;
+  border-radius: 50%;
+  border: 9px solid #232328;
+  box-shadow: 0px 4px 14px rgb(0 0 0 / 25%);
+  padding: 38px 0;
+}
+
+.custom {
+  width: 255px;
+  height: 80px;
+  background: linear-gradient(180deg, #a60100 0%, #d90000 100%);
+  border-radius: 120px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+@media only screen and (min-width: 1200px) {
+  .transfer {
+    left: 42%;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 990px) {
+  .transfer {
+    left: 41%;
+  }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 580px) {
+  .transfer {
+    left: 38%;
+  }
+}
+
+@media only screen and (max-width: 580px) and (min-width: 770px) {
+  .transfer {
+    left: 32%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .transfer {
+    left: 27%;
+    top: 30%;
+    transform: rotateZ(90deg);
+  }
+  .buy-card-mobi {
+    margin-top: 20%;
+  }
+}

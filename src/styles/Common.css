@@ -1,0 +1,259 @@
+a {
+    text-decoration: none;
+}
+
+.primary-btn {
+    background: linear-gradient(180deg, #a60100 0%, #d90000 100%);
+    border-color: #a60100;
+    border-radius: 120px;
+    min-width: 100px;
+    height: 41px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.primary-btn:hover {
+    border-color: #a60100;
+}
+
+.secondry-btn {
+    background: #1c1c2047;
+    border-color: white;
+    border-radius: 120px;
+    min-width: 118px;
+    height: 41px;
+    font-weight: bold;
+}
+
+.secondry-btn:hover {
+    background: #1c1c2047;
+    border-color: #1c1c20;
+    /* border-radius: 120px;
+    min-width: 118px;
+    height: 41px;
+    font-weight: bold; */
+}
+
+.secondry-btn-sm {
+    background: #1c1c2047;
+    border-color: #1c1c20;
+    border-radius: 120px;
+    width: auto;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.success-btn-sm {
+    background: #0cbb67;
+    border-color: #0cbb67;
+    border-radius: 120px;
+    width: auto;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 15px;
+}
+
+.page-wrapper {
+    color: white;
+}
+
+.page-header {
+    height: 300px;
+    background: url("../assets/login/wrapper.png");
+    backdrop-filter: brightness(0.1);
+    background-size: contain;
+}
+
+.page-body .dropdown-toggle.btn.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.page-body .dropdown-toggle.btn.btn-primary:hover {
+    color: #fff;
+    background-color: black;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: black;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.dropdown-menu a {
+    color: black !important;
+}
+
+.page-body {
+    color: white;
+    /* background: #1c1c20; */
+    padding-bottom: 100px;
+    /* margin-top: -100px; */
+}
+
+.page-body .list {
+    margin-top: -100px;
+}
+
+.page-body.explore {
+    margin-top: -170px;
+}
+
+.page-body.explore .list {
+    margin-top: 0px;
+}
+
+.page-body.explore .explore-title {
+    backdrop-filter: blur(1px);
+}
+
+.page-body-content {
+    margin-top: -100px;
+}
+
+/* @media screen and (max-width:992px){
+    .page-body-content{
+        margin-top: 0px;
+    }
+    .page-body .list{
+        margin-top: 0px;
+    }
+} */
+
+.community {
+    padding: 25px 50px;
+    text-align: left;
+    background: #232328;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-height: 80vh;
+    backdrop-filter: blur(1px);
+}
+
+.customInputField {
+    background: #1c1c20;
+    border-color: #1c1c20;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background: #a60100;
+}
+
+.content-details-sm {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.content-details-md {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content-details-mute {
+    font-size: 12px;
+    color: #848484;
+}
+
+.slick-dots li button:before {
+    font-size: 16px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #736e6e;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+.content-details-mute {
+    font-size: 12px;
+    color: #848484;
+}
+
+.displayinit {
+    display: initial;
+}
+
+.oops{
+  display: block;
+  font-size: 700%;
+  font-family: 'Patua One';
+}
+@media only screen and (max-width: 300px) {
+  .oops{
+    font-size: 500%;
+  }
+}
+
+.not_found {
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.bolded-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bolded-text-15 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.img-desc-col p {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.loader-gif {
+    background: #000;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.loader-gif-none {
+    display: none !important;
+}
+
+.loader-gif > img {
+    margin: auto;
+    width: 95px;
+}
+
+@media only screen and (max-width: 520px) {
+    .community.expand {
+        padding: 25px 15px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .community.expand {
+        padding: 25px 15px;
+    }
+
+    .page-body.explore {
+        margin-top: -120px;
+    }
+
+    .search-input-btn {
+        padding: 14px;
+    }
+    .customInputField {
+        padding: 8px;
+    }
+}

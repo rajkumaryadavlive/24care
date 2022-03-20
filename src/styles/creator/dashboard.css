@@ -1,0 +1,228 @@
+.creator-dashboard-card-first {
+    width: 198px;
+    height: 108px;
+    background: #343437;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.creator-dashboard-card-first .title {
+    font-size: 38px;
+}
+
+.creator-dashboard-card-second .content .content-title {
+    padding: 10px;
+    font-weight: bold;
+}
+.creator-dashboard-card-second .content .content-detail {
+    padding: 10px;
+}
+
+.creator-dashboard-card-second .content .approved {
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.creator-dashboard-card-second {
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0px;
+}
+
+.creator-dashboard-card-second .image img {
+    width: 100%;
+}
+
+.admin-wrapper-body .dashboard .dropdown-toggle::before {
+    content: url("../../assets/filter.png");
+    margin-right: 2px;
+}
+
+.admin-wrapper-body .dropdown-toggle.btn.btn-primary {
+    color: #fff;
+    background-color: #232328;
+    border-color: #232328;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.admin-wrapper-body .dropdown-toggle.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #232328;
+    border-color: #232328;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.admin-wrapper-body .dropdown-toggle.btn.btn-primary:hover {
+}
+
+.dashboard-search span {
+    background: #232328;
+    border: none;
+}
+
+.dashboard-search span img {
+    width: 15px;
+}
+
+.dashboard-search input {
+    background: #232328;
+    border: none;
+    color: white;
+}
+
+.list {
+    background: #232328;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+    text-align: left;
+}
+
+@media screen and (max-width:767px){
+    .list{
+        text-align: center;
+    }
+}
+
+.background-none {
+    background: none !important;
+}
+
+.list .title {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.list .title span {
+    width: 53px;
+    height: 20px;
+    left: 388px;
+    top: 331px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: #0cbb67;
+    border-radius: 30px;
+    white-space: nowrap;
+}
+
+.list .title span.danger {
+    width: 53px;
+    height: 20px;
+    left: 388px;
+    top: 331px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: #a60100;
+    border-radius: 30px;
+    white-space: nowrap;
+}
+
+.list .desc-mute {
+    color: #9a9a9a;
+    font-size: 11px;
+}
+
+span.image-type-status {
+    position: absolute;
+    margin: 5px 0px 0px -34px;
+    font-size: 10px;
+    padding: 0 8px;
+    background: #0cbb67;
+    border-radius: 5px;
+}
+
+.list .list-img {
+    width: 98px;
+    height: 103px;
+    margin-left: -10px;
+    border-radius: 12px;
+}
+
+.list .success-btn {
+    width: 42px;
+    height: 42px;
+    left: 1255px;
+    top: 336px;
+    background: #0cbb67;
+    /* border: 2px solid rgba(12, 187, 103, 0.2); */
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+.list .wrong-btn {
+    width: 42px;
+    height: 42px;
+    left: 1255px;
+    top: 336px;
+    background: #ff4f4f;
+    /* border: 2px solid rgba(255, 130, 130, 0.6); */
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+.list .edit-btn {
+    width: 42px;
+    height: 42px;
+    left: 1255px;
+    top: 336px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+.status {
+    color: #0cbb67;
+    font-weight: bold;
+}
+
+.bg-img {
+    background-image: url("../../assets/images/Vector.png");
+    background-repeat: no-repeat;
+}
+
+.dash-total-content {
+    background-position: 8em 1em;
+}
+
+.contact-sale {
+    background-position: -6em 1em;
+}
+
+.pending-approval {
+    background-position: -20em 1em;
+}
+
+.total-earned {
+    background-position: -35em 1em;
+}
+
+.earned-amt {
+    background-position: -49em 1em;
+}
+
+.total-creators {
+    background-position: -63rem 1em;
+}
+
+.m-5 {
+    margin: 5px;
+}

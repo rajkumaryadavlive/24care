@@ -1,0 +1,79 @@
+.stake .content {
+    justify-content: space-evenly;
+    min-height: 350px;
+    max-width: 365px;
+    height: 430px;
+}
+
+.stake-bn {
+    width: 100%;
+    text-align: center;
+}
+
+.stake {
+    max-width: 850px;
+}
+
+.stake label.closebtn {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.bg-own {
+    background: url("../assets/home/output-onlinejpgtools.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    max-width: 365px;
+    backdrop-filter: brightness(1);
+    text-align: left;
+    border-radius: 20px;
+}
+
+.bg-own:before {
+    content: "";
+    background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.bg-own > label,
+.bg-own > div {
+    z-index: 9999;
+    color: #fff;
+}
+
+.exteend:after {
+    content: "";
+    background: #232329;
+    position: absolute;
+    height: inherit;
+    right: 54%;
+    width: 30px;
+}
+
+.all-stake th {
+    border-bottom: 1px solid black !important;
+    padding: 15px;
+}
+
+.all-stake th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+.all-stake th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+@media only screen and (max-width: 450px) {
+    .stake .content {
+        height: 350px;
+    }
+}

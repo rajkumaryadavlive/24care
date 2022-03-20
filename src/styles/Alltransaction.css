@@ -1,0 +1,87 @@
+.round-wrapper {
+    position: relative;
+}
+
+.round-wrapper .round {
+    width: 35px;
+    height: 35px;
+    border: 3px solid #343437;
+    border-radius: 50%;
+    line-height: 30px;
+    background: #343437;
+}
+
+.row-height {
+    padding-bottom: 50px;
+}
+
+.row-height:not(:last-child) .round::after {
+    top: 50px;
+    position: absolute;
+    content: "";
+    height: auto;
+    bottom: -67px;
+    width: 5px;
+    border: 1px #020202;
+    background: #020202;
+    left: 30px;
+}
+.transaction-wrapper {
+    border: 1px solid #343437;
+    border-radius: 20px;
+    font-size: 15px;
+    contain: paint;
+}
+
+.trans-count .round {
+    width: 18px;
+    height: 18px;
+    border: 3px solid #343437;
+    border-radius: 50%;
+}
+
+.transaction-wrapper img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.first {
+    background: #020202;
+    padding: 8px;
+}
+.second {
+    background: #343437;
+    padding-top: 15px;
+}
+
+.load-btn {
+    color: #fff;
+    background-color: #232328;
+    border-color: #232328;
+    padding: 15px 35px;
+    padding: 1;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="date"] {
+    /* border: 1px solid #67676c; */
+}
+
+.date-field-ttf {
+    width: 23em;
+    border: 1px solid #67676c !important;
+}
+
+.calendar-deff {
+    margin-left: -33px;
+    margin-top: 5px;
+    z-index: 99999;
+    color: #fff;
+}
+
+.date-field-ttf:focus + .calendar-deff {
+    color: #000;
+    display: none;
+}

@@ -1,0 +1,30 @@
+
+
+.contact-img{
+    background: url('../assets/login/contact.png');
+    background-repeat: no-repeat;
+    min-height: 443px;
+    width: 454px;
+    color: white;
+    background-size: 100% 100%;
+}
+
+.contact-content{
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: end;
+    text-align: left;
+}
+
+.contact-form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 35px; */
+    text-align: left;
+    background: #232328;
+    border-radius: 20px;
+    padding: 40px 60px;
+}

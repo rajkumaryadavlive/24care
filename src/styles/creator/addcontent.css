@@ -1,0 +1,134 @@
+.add-content-wrapper {
+    display: flex;
+}
+
+.add-content-img {
+    background: black;
+    border-radius: 10px 0px 0px 10px;
+    padding: 25px;
+}
+
+.add-content-detail {
+    padding: 0px 25px;
+    border-radius: 10px;
+    background: #232328;
+    margin-left: -5px;
+}
+
+.add-content-detail hr {
+    background-color: #000000;
+    opacity: 1;
+    height: 2px;
+}
+
+.add-content-label {
+    color: #585858;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.add-content-input {
+    background: #343437;
+    color: white;
+    border: none;
+}
+
+.add-content-value .form-check-input:checked {
+    background-color: #343437;
+    border: 2px solid #000000;
+}
+
+.add-content-value .form-check-input {
+    background-color: #343437;
+    border: 2px solid black;
+}
+
+.add-content-value {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.add-content-img .image-card {
+    width: 310px;
+    height: 209px;
+    opacity: 70%;
+    margin-bottom: 10px 0;
+}
+
+.video-thumbnail {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.add-content-img .image-card-preview {
+    width: 310px;
+    height: 209px;
+    margin-bottom: 10px;
+}
+
+.add-content-img .add-img-btn {
+    width: 28px;
+    height: 28px;
+    background: #d90000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+.add-content-img .image-card object,
+.image-card-preview object {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.add-content-img .img-types {
+    margin-top: 24px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 27px;
+    color: #ffffff;
+    display: inline;
+    font-weight: bold;
+}
+.mob-mt0{
+    margin-top: 0px;
+}
+
+.ml-inherit{
+    margin-left: inherit;
+}
+.mr-inherit{
+    margin-right: inherit;
+}
+
+.widthauto{
+    width: auto !important;
+}
+
+
+
+@media (max-width:450px) {
+    .mob-d-flex{
+        display: flex;
+    }
+    .mob-mt3{
+        margin-top: 15px;
+    }
+    .ml-inherit{
+        margin-left: auto;
+    }
+    .mr-inherit{
+        margin-right: auto;
+    }
+    
+}
+/* .add-content-img .img-types{ */
